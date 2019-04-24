@@ -6,7 +6,7 @@
 # TO_RUN:         docker run -p 8080:8080 mediadrop
 
 # Latest Ubuntu LTS
-from    ubuntu:12.04
+from    ubuntu:18.04
 
 # Update
 RUN apt-get update && apt-get -y upgrade && apt-get update -y
